@@ -81,22 +81,26 @@ Follow these steps to build and run the containerized application:
 ```bash
 cd Titanic-Prediction-Model
 ```
+![Example Image](https://github.com/Anugrah2334/Titanic-Survival-Predictor/blob/main/Screenshot1.png)
 
 ### **2️⃣ Build the Docker Image**
 ```bash
 docker build -t titanic-prediction .
 ```
+![Example Image](https://github.com/Anugrah2334/Titanic-Survival-Predictor/blob/main/Screenshot2.png)
 
 ### **3️⃣ Run the Docker Container**
 ```bash
 docker run -p 8501:8501 titanic-prediction
 ```
+![Example Image](https://github.com/Anugrah2334/Titanic-Survival-Predictor/blob/main/Screenshot3.png)
 
 ### **4️⃣ Access the Application**
 Open your browser and navigate to:
 ```
 http://localhost:8501
 ```
+![Example Image](https://github.com/Anugrah2334/Titanic-Survival-Predictor/blob/main/Screenshot4.png)
 
 ---
 
